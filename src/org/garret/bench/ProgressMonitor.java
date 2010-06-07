@@ -30,7 +30,7 @@ public class ProgressMonitor implements Runnable {
 							view.invalidate();
 						}
 					});
-					test.wait(10000);
+					test.wait(Benchmark.PROGRESS_NOTIFICATION);
 				}
 				handler.post(new Runnable() {
 					public void run() {

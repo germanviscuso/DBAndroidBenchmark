@@ -16,7 +16,7 @@ class RecordDb4o {
 
 
 public class Db4oTest extends Test { 
-    final static int nRecords = 10000;
+    final static int nRecords = Benchmark.TEST_ITERATIONS;
     
     String databaseName;
     PrintStream out;

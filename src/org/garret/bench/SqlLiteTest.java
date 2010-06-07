@@ -6,7 +6,7 @@ import android.database.sqlite.*;
 import android.database.*;
 
 public class SqlLiteTest extends Test {
-	final static int nRecords = 10000;
+	final static int nRecords = Benchmark.TEST_ITERATIONS;
 	final static int pagePoolSize = 2 * 1024 * 1024;
     
 	String databaseName;
@@ -18,7 +18,7 @@ public class SqlLiteTest extends Test {
     }
 
     public String getName() { 
-    	return "SqLite";
+    	return "SQLite";
     }
 
     

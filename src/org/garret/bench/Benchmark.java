@@ -8,6 +8,8 @@ import java.io.*;
 
 public class Benchmark extends Activity {
     
+	static final public int TEST_ITERATIONS = 1000;
+	static final public int PROGRESS_NOTIFICATION = 1000; // in milliseconds
     static final private int PERST_ID = Menu.FIRST;
     static final private int SQLITE_ID = Menu.FIRST + 1;
     static final private int DB4O_ID = Menu.FIRST + 2;

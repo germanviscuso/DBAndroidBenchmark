@@ -21,7 +21,7 @@ class Indices extends Persistent {
 }
 
 public class PerstTest extends Test { 
-    final static int nRecords = 10000;
+    final static int nRecords = Benchmark.TEST_ITERATIONS;
     final static int pagePoolSize = 2*1024*1024;
     
     String databaseName;
