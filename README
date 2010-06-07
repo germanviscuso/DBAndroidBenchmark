@@ -1,0 +1,3 @@
+Requirements:
+-Eclipse, Android SDK and plugin (latest SDK supporting Android 2.2)
+-Database libs are located in the "lib" directory inside the project
