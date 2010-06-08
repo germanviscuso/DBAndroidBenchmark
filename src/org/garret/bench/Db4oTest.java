@@ -71,7 +71,7 @@ public class Db4oTest extends Test {
         config.common().objectClass(RecordDb4o.class).objectField("strKey").indexed(true);
         config.file().lockDatabaseFile(false);
         //config.idSystem().useInMemorySystem();
-        //config.idSystem().usePointerBasedSystem();
+        config.idSystem().usePointerBasedSystem();
         //config.idSystem().useSingleBTreeSystem();
         //config.common().bTreeNodeSize(6400);
         
